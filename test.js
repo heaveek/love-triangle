@@ -1,6 +1,6 @@
 const assert = require('assert');
 Object.freeze(assert);
-const getLoveTrianglesCount = require('./src/index');
+const getLoveTrianglesCount = require('./src/index.js');
 
 describe('Love triangles', () => {
   it('1', () => {
